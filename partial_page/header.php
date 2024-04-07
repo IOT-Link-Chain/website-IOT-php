@@ -139,7 +139,7 @@
                         </div>
                         <div class="col-auto d-none d-xl-block">
                             <div class="header-button">
-<a href="#" class="btn" data-toggle="modal" data-target="#getstarted">Get Started<i class="fas fa-angle-double-right"></i></a>
+<button type="button" class="btn" data-toggle="modal" data-target="#getstarted">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -150,21 +150,27 @@
 
     <!---- modal  ---->
 
-<div id="getstarted" class="modal fade" role="dialog">
+<!-- The Modal -->
+<div class="modal" id="getstarted">
   <div class="modal-dialog">
-
-    <!-- Modal content-->
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Get Started</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-      </div>
-    </div>
 
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
   </div>
 </div>

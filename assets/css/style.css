@@ -6351,7 +6351,7 @@ ul.wp-block-latest-posts li:last-child {
   content: "/";
   position: relative;
   margin-left: 7px;
-  font-weight: 400;
+  font-weight: 250;
   font-size: 16px;
   color: var(--theme-color);
 }
@@ -6414,7 +6414,7 @@ ul.wp-block-latest-posts li:last-child {
 
 .breadcumb-wrapper {
   background-size: cover;
-  padding: 282px 0 140px;
+  padding: 200px 0 100px;
   overflow: hidden;
   position: relative;
   z-index: auto;

@@ -9,14 +9,12 @@
                         
                         <div class="col-lg-8">
                             <div class="hero-style1">
-                                <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">NATURAL ENVIRONMENT</span>
-                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s"> Leading the way to</h1>
-                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s">a greener future </h1>
-                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Ecology is the scientific study of the relationships between organisms and their environment, including their physical, chemical. </p>
-                                <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                    <a href="contact.html" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
-                                    <a href="contact.html" class="btn style3">Get Started<i class="fas fa-angle-double-right"></i></a>
-                                </div>
+                                <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">SMART NETWORK</span>
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">IoTLINK CHAIN</h1>
+                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.5s">Simplified, clean and fast ecosystem. Our goal is a green and fully connected world generating passive income without harming the environment.</p>
+                                <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="https://doc.iotlinkchain.com" targe="_blank" class="btn style2">Read Documentation</a>
+                                  </div>
                             </div>
                         </div>
                     </div>                
@@ -28,33 +26,19 @@
                         
                         <div class="col-lg-8 col-md-12">
                             <div class="hero-style1">
-                                <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">NATURAL ENVIRONMENT</span>
-                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">  Saving the planet</h1>
-                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.5s">one step at a time</h1>
-                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s"> Ecology is the scientific study of the relationships between organisms and their environment, including their physical, chemical. </p>
-                                <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                    <a href="contact.html" class="btn style2">Join Us Now<i class="fas fa-angle-double-right"></i></a>
-                                    <a href="contact.html" class="btn style3">Get Started<i class="fas fa-angle-double-right"></i></a>
-                                </div>
+                                <span class="hero-subtitle" data-ani="slideinup" data-ani-delay="0.3s">GOVERNANCE AND PASSIVE INCOME</span>
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">POS3.0 and Tokens</h1>
+                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.5s">Using our robust ecosystem, the community has a metaverse of possibilities generating passive income daily whether on computer, web or cell phone.</p>
+                                <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="#" class="btn style2">Visit IOTLink Labs</a>
+                                   
                             </div>
                         </div>
                     </div>                
                 </div>
             </div>
         </div>
-        <div class="slider-social-area">
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/"> Facebook </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/"> Instagram </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/"> Twitter </a>
-                </li>
-            </ul>
-        </div> 
+       
     </div>
     <!--======== / Hero Section ========-->
 

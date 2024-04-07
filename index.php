@@ -2,12 +2,11 @@
 // Start a session
 session_start();
 // Set a cookie
-$cookieName = "myCookie";
-$cookieValue = "Hello, World!";
-$cookieExpiration = time() + (86400 * 30); // 30 days
+$cookieName = "ILC";
+$cookieValue = "Hello, World green!";
+$cookieExpiration = time() + (86400 * 7); // 7 days
 $cookiePath = "/"; // Set the cookie path to the root of the website
 setcookie($cookieName, $cookieValue, $cookieExpiration, $cookiePath);
-
 // Include the database connection file
 // require_once 'data/database.php';
 include 'includes/functions.php';
@@ -27,11 +26,12 @@ switch ($page) {
         include 'pages/contact.php';
         break;
     case 'wallets':
-        include 'pages/contact.php';
+        include 'pages/wallets.php';
         break;
     default:
         include 'pages/home.php';
         break;
 }
+//footer page
 include 'partial_page/footer.php';
 ?>
