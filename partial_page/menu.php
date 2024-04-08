@@ -11,11 +11,11 @@
                                     <li class="menu-item-has-children">
                                         <a title ="Discover our world" href="#">Ecosystem</a>
                                         <ul class="sub-menu">
-                                            <li><a href="https://docs.iotlinkchain.com/">Documentation</a></li>
-                                            <li><a href="https://scan.iotlinkchain.com/#">Explorer transactions</a></li>
-                                            <li><a href="https://scan.iotlinkchain.com/token/#">Explorer Tokens</a></li>
+                                            <li><a href="https://doc.iotlinkchain.com/" target="_blank">Documentation</a></li>
+                                            <li><a href="https://scan.iotlinkchain.com/#" target="_blank">Explorer transactions</a></li>
+                                            <li><a href="https://scan.iotlinkchain.com/token/#" target="_blank">Explorer Tokens</a></li>
                                             <li><a href="?page=wallets">Wallets</a></li>
-                                            <li><a href="https://api.iotlinkchain.com/">API</a></li>
+                                            <li><a href="https://api.iotlinkchain.com/" target="_blank">API</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">

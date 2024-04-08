@@ -61,34 +61,26 @@
                 <div class="col-lg-6">
                     <div class="about-content-wrap">
                         <div class="title-area mb-35">
-                            <span class="sub-title">ABOUT WITH US</span>
-                            <h2 class="sec-title">Building a greener future together Forever</h2>
-                            <p class="sec-text">Ecology is the scientific study of the relationships between organisms and their environment, including their physical, chemical. 
-                            </p>
+                            <span class="sub-title">IWhat is IoT?</span>
+                            <p class="sec-text">The Internet of Things (IoT) describes the network of physical objects incorporated with sensors, software and other technologies with the aim of connecting and exchanging data with other devices and systems over the internet. These devices range from common household objects to sophisticated industrial tools. With more than 7 billion IoT devices connected today, experts expect that number to grow to 10 billion by 2020 and 22 billion by 2025.</p>
                         </div>
                         <div class="checklist mb-30">
                             <ul>
-                                <li><i class="fas fa-check-circle"></i> Know what your target market wants and needs</li>
-                                <li><i class="fas fa-check-circle"></i> A Whole Lot of Digital Love for Less</li>
+                                <li><i class="fas fa-check-circle"></i>AUTOMATION USING BLOCKCHAIN</li>
+                                <li><i class="fas fa-check-circle"></i>EASY INTEGRATION AND 100% USED TODAY</li>
                             </ul>
                         </div>
                         <div class="skill-feature">
-                            <h3 class="skill-feature_title">Problem Solving</h3>
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 80%;">
-                                </div>
-                                <div class="progress-value"><span class="counter-number">80</span>%</div>
-                            </div>
+                            <h3 class="skill-feature_title">Business propose</h3>
                         </div>
                         <div class="btn-wrap mt-40 justify-content-between">
                             <div class="about-author">
                                 <img src="assets/img/normal/about_1-3.jpg" alt="img">
                                 <div class="about-author-info">
-                                    <span class="about-desig"> Agronomist</span>
-                                    <h3 class="about-name">Leslie Alexander</h3>
+                                    <span class="about-desig"> Smart Waste using IoT</span>
                                 </div>
                             </div>
-                            <a href="about.html" class="btn style4">Explore More <i class="fas fa-angle-double-right"></i></a>
+                            <a href="https://doc.iotlinkchain.com/business-propose" target="_blank" class="btn style4">Read More <i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>                    
                 </div>
