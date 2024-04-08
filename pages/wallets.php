@@ -9,7 +9,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Wallets</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="index.html">IoTLinkChain</a></li>
+                            <li><a href="./">IoTLinkChain</a></li>
                             <li class="active">Wallets</li>
                         </ul>
                     </div>
@@ -36,81 +36,68 @@
                 </div>
             </div>
             <div class="row filter-active gy-4">
-                <div class="col-xl-4 col-md-6 filter-item cat3">
+                <div class="col-xl-4 col-md-6 filter-item pc">
                     <div class="project-card style2">
                         <div class="project-card-img">
-                            <img src="assets/img/project/2-1.jpg" alt="img">
+                            <img src="assets/img/project/windows.jpeg" alt="img">
                         </div>
                         <div class="project-card-details">
-                            <p class="project-card-subtitle"><a href="project-details.html">Recycling</a></p>
-                            <h3 class="project-card-title"><a href="project-details.html">Tackling climate</a></h3>
+                            <h3 class="project-card-title"><a href="project-details.html">Windows 32/64 bits Version</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 filter-item cat2">
+                <div class="col-xl-4 col-md-6 filter-item pc">
                     <div class="project-card style2">
                         <div class="project-card-img">
-                            <img src="assets/img/project/2-2.jpg" alt="img">
+                            <img src="assets/img/project/ubuntu.jpeg" alt="img">
                         </div>
                         <div class="project-card-details">
-                            <p class="project-card-subtitle"><a href="project-details.html">Ecosystem</a></p>
-                            <h3 class="project-card-title"><a href="project-details.html">Greenhouse Effect</a></h3>
+                            <h3 class="project-card-title"><a href="project-details.html">Ubuntu 18/20/22 version</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 filter-item cat3">
+                <div class="col-xl-4 col-md-6 filter-item extension">
                     <div class="project-card style2">
                         <div class="project-card-img">
-                            <img src="assets/img/project/2-3.jpg" alt="img">
+                            <img src="assets/img/project/chrome.jpeg" alt="img">
                         </div>
                         <div class="project-card-details">
-                            <p class="project-card-subtitle"><a href="project-details.html">Recycling</a></p>
-                            <h3 class="project-card-title"><a href="project-details.html">Global Politics</a></h3>
+                            <h3 class="project-card-title"><a href="project-details.html">Google Chrome Extension Wallet.</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 filter-item cat2">
+                <div class="col-xl-4 col-md-6 filter-item extension">
                     <div class="project-card style2">
                         <div class="project-card-img">
-                            <img src="assets/img/project/2-4.jpg" alt="img">
+                            <img src="assets/img/project/firefox.jpeg" alt="img">
                         </div>
                         <div class="project-card-details">
-                            <p class="project-card-subtitle"><a href="project-details.html">Ecosystem</a></p>
-                            <h3 class="project-card-title"><a href="project-details.html">Climate Solution</a></h3>
+                            <h3 class="project-card-title"><a href="project-details.html">Firefox Extension Wallet.</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 filter-item cat1">
+                <div class="col-xl-4 col-md-6 filter-item mobile">
                     <div class="project-card style2">
                         <div class="project-card-img">
-                            <img src="assets/img/project/2-6.jpg" alt="img">
+                            <img src="assets/img/project/mobile.jpeg" alt="img">
                         </div>
                         <div class="project-card-details">
-                            <p class="project-card-subtitle"><a href="project-details.html">Climate</a></p>
-                            <h3 class="project-card-title"><a href="project-details.html">The Future of…</a></h3>
+                            <h3 class="project-card-title"><a href="project-details.html">Mobile Wallet (Android) </a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 filter-item cat1">
+                <div class="col-xl-4 col-md-6 filter-item web">
                     <div class="project-card style2">
                         <div class="project-card-img">
-                            <img src="assets/img/project/2-5.jpg" alt="img">
+                            <img src="assets/img/project/webwallet.jpeg" alt="img">
                         </div>
                         <div class="project-card-details">
-                            <p class="project-card-subtitle"><a href="project-details.html">Climate</a></p>
-                            <h3 class="project-card-title"><a href="project-details.html">Urgency of Climate</a></h3>
+                            <h3 class="project-card-title"><a href="project-details.html">Wallet IoTLinkWeb</a></h3>
                         </div>
                     </div>
                 </div>
                 
             </div>
-            <div class="pagination justify-content-center">
-                <ul>
-                    <li><a href="project.html">1</a></li>
-                    <li><a href="project.html">2</a></li>
-                    <li><a href="project.html">3</a></li>
-                    <li><a href="project.html"><i class="fas fa-arrow-right"></i></a></li>
-                </ul>
-            </div>
+           
         </div>
     </div>

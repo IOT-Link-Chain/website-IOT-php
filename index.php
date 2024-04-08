@@ -3,7 +3,7 @@
 session_start();
 // Set a cookie
 $cookieName = "ILC";
-$cookieValue = "Hello, World green!";
+$cookieValue = rand(100000, 999999);
 $cookieExpiration = time() + (86400 * 7); // 7 days
 $cookiePath = "/"; // Set the cookie path to the root of the website
 setcookie($cookieName, $cookieValue, $cookieExpiration, $cookiePath);
@@ -11,6 +11,7 @@ setcookie($cookieName, $cookieValue, $cookieExpiration, $cookiePath);
 // require_once 'data/database.php';
 include 'includes/functions.php';
 include 'partial_page/header.php';
+
 // Get the page parameter from the URL
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 

@@ -5922,7 +5922,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .copyright-wrap {
-  padding: 15.5px 0;
+  padding: 10.5px 0;
   border-top: 1px solid #454441;
 }
 .copyright-wrap .footer-links ul {
@@ -5969,11 +5969,11 @@ ul.wp-block-latest-posts li:last-child {
   position: relative;
 }
 .footer-layout1 .footer-top {
-  padding: 120px 0 0px;
+  padding: 40px 0 0px;
 }
 .footer-layout1 .footer-top .info-card {
   display: flex;
-  padding: 30px 30px 25px;
+  padding: 20px 20px 15px;
   background: var(--theme-color);
   border-radius: 20px;
   gap: 15px;
@@ -6038,9 +6038,9 @@ ul.wp-block-latest-posts li:last-child {
 }
 /*Footer area 2--------------------------*/
 .footer-layout2 .footer-top {
-  padding-top: 80px;
+  padding-top: 40px;
   border-bottom: 1px solid #b4b3ac;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .footer-layout2 .widget-area {
   padding: 60px 0 30px;
