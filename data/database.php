@@ -1,9 +1,9 @@
 <?php
     // Establish a connection to the database
     $servername = "localhost";
-    $username = "your_username";
-    $password = "your_password";
-    $dbname = "your_database";
+    $username = "root";
+    $password = "";
+    $dbname = "iotlinkbd";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
