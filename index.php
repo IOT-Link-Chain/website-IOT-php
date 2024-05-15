@@ -8,7 +8,7 @@ $cookieExpiration = time() + (86400 * 7); // 7 days
 $cookiePath = "/"; // Set the cookie path to the root of the website
 setcookie($cookieName, $cookieValue, $cookieExpiration, $cookiePath);
 // Include the database connection file
-// require_once 'data/database.php';
+require_once 'data/database.php';
 include 'includes/functions.php';
 include 'partial_page/header.php';
 
@@ -26,11 +26,17 @@ switch ($page) {
     case 'contact':
         include 'pages/contact.php';
         break;
-    case 'wallets':
-        include 'pages/wallets.php';
+    case 'news':
+        include 'pages/news.php';
         break;
     case 'game':
         include 'pages/game.php';
+        break;
+    case 'news-details':
+        include 'pages/news_details.php';
+        break;
+    case 'wallets':
+        include 'pages/wallets.php';
         break;
     default:
         include 'pages/home.php';

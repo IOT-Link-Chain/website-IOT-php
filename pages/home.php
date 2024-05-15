@@ -296,57 +296,42 @@
         </div>
         <div class="container container2">
             <div class="row gy-4 justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <div class="blog-img">
-                            <a href="?page=news">
-                                <img src="assets/img/blog/1-1.jpg" alt="blog image">
-                                <div class="blog-date">03 Apr</div>
-                            </a>
+                <?php
+                $sql = "SELECT * FROM news ORDER BY id DESC LIMIT 3";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        ?>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-card">
+                                <div class="blog-img">
+                                    <a href="?page=news?id=<?php echo $row['id']; ?>">
+                                        <img src="assets/img/blog/<?php echo $row['image']; ?>" alt="<?php echo $row['Title']; ?>">
+                                        <div class="blog-date"><?php echo date('d M', strtotime($row['timestamp'])); ?></div>
+                                    </a>
+                                </div>
+                                <div class="blog-content">
+                                    <h3 class="blog-title box-title"><a href="?page=news?id=<?php echo $row['id']; ?>"><?php echo $row['Title']; ?></a></h3>
+                                    <p class="blog-text"><?php echo substr($row['text'], 0, 100); ?>...</p>
+                                </div>
+                                <div class="blog-bottom">
+                                    <a href="?page=news?id=<?php echo $row['id']; ?>" class="link-btn">Read More <i class="fas fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog-content">
-                            <h3 class="blog-title box-title"><a href="?page=news">Go green and reduce your carbon footprint</a></h3>
-                            <p class="blog-text">Going green and reducing your carbon footprint are important steps towards creating…</p>                            
+                        <?php
+                    }
+                }else{
+                  ?>
+<div class="col-lg-6 col-md-6">
+                            <div class="blog-card text-center">
+                                <h1>No News Found</h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog-bottom">
-                            <a href="?page=news" class="link-btn">Read More <i class="fas fa-angle-double-right"></i></a>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <div class="blog-img">
-                            <a href="?page=news">
-                                <img src="assets/img/blog/1-2.jpg" alt="blog image">
-                                <div class="blog-date">03 Apr</div>
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <h3 class="blog-title box-title"><a href="?page=news">Make a statement support of the eco</a></h3>
-                            <p class="blog-text">Going green and reducing your carbon footprint are important steps towards creating…</p>                            
-                        </div>
-                        <div class="blog-bottom">
-                            <a href="?page=news" class="link-btn">Read More <i class="fas fa-angle-double-right"></i></a>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <div class="blog-img">
-                            <a href="?page=news">
-                                <img src="assets/img/blog/1-3.jpg" alt="blog image">
-                                <div class="blog-date">03 Apr</div>
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <h3 class="blog-title box-title"><a href="?page=news">Affordable, targeted media for every one</a></h3>
-                            <p class="blog-text">Going green and reducing your carbon footprint are important steps towards creating…</p>                            
-                        </div>
-                        <div class="blog-bottom">
-                            <a href="?page=news" class="link-btn">Read More <i class="fas fa-angle-double-right"></i></a>
-                        </div>
-                    </div>
-                </div>                              
+                <?php  
+                }
+                ?>                             
             </div>
         </div>
     </section>    

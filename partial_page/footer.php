@@ -23,9 +23,10 @@
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Newsletter</h3>
                             <p class="footer-text">Your opinion is important to us. So contact us for any service.</p>
-                            <form class="newsletter-form">
+                            
+                            <form class="newsletter-form" method="post" action="addEmail.php">
                                 <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Your Email Address" required="">
+                                    <input class="form-control" type="email" name="email" placeholder="Your Email Address" required="">
                                 </div>
                                 <button type="submit" class="btn"><i class="fas fa-paper-plane"></i></button>
                             </form>
