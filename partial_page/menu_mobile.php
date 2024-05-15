@@ -15,6 +15,7 @@
                                             <li><a href="https://scan.iotlinkchain.com/token/#" target="_blank">Explorer Tokens</a></li>
                                             <li><a href="?page=wallets">Wallets</a></li>
                                             <li><a href="https://api.iotlinkchain.com/" target="_blank">API</a></li>
+                                            <li><a href="?page=game" target="_blank">Game</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">

@@ -29,10 +29,14 @@ switch ($page) {
     case 'wallets':
         include 'pages/wallets.php';
         break;
+    case 'game':
+        include 'pages/game.php';
+        break;
     default:
         include 'pages/home.php';
         break;
 }
 //footer page
 include 'partial_page/footer.php';
+
 ?>
