@@ -306,8 +306,8 @@
                             <div class="blog-card">
                                 <div class="blog-img">
                                     <a href="?page=news?id=<?php echo $row['id']; ?>">
-                                        <img src="assets/img/blog/<?php echo $row['image']; ?>" alt="<?php echo $row['Title']; ?>">
-                                        <div class="blog-date"><?php echo date('d M', strtotime($row['timestamp'])); ?></div>
+                                        <img src="assets/img/blog/<?php echo $row['photo']; ?>" alt="<?php echo $row['Title']; ?>">
+                                        <div class="blog-date"><?php echo date('d M', strtotime($row['date'])); ?></div>
                                     </a>
                                 </div>
                                 <div class="blog-content">

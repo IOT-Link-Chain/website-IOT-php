@@ -32,7 +32,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="contact-info_title">Contacts Info</h4>
-                            <span class="contact-info_text">Company@mail.com</span>
+                            <span class="contact-info_text">support@iotlinkchain.com</span>
                         </div>
                     </div>
                 </div>
@@ -43,8 +43,13 @@
                         </div>
                         <div class="media-body">
                             <h4 class="contact-info_title">Community links</h4>
-                            <span class="contact-info_text">xxxxx</span>
-                            <span class="contact-info_text">xxxxx</span>
+                            
+                            <span class="contact-info_text"> <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a> </span>
+                            <span class="contact-info_text"> <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a> </span>
+                            <span class="contact-info_text"> <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> </span>
+                            <span class="contact-info_text"> <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a> </span>
+                            <span class="contact-info_text"> <a href="https://github.com/"><i class="fab fa-github"></i></a> </span>
+                    
                         </div>
                     </div>
                 </div>
